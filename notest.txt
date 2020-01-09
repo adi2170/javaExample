@@ -9,7 +9,7 @@ Scanner SC=new Scanner(System.in);
 	     int range=SC.nextInt();
 	     while(num<=range) 
 	     {
-	    	 if(num%2==0)
+	     for(n==0,1++)
 	    	 {System.out.println(num +" is a even number");
 	    	 }
 	    	 else
