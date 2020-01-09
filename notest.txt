@@ -1,0 +1,28 @@
+Scanner SC=new Scanner(System.in);
+		
+		System.out.println("Enter the first Number");
+	
+	int num=SC.nextInt();
+	
+         System.out.println("Enter Number Range");
+	
+	     int range=SC.nextInt();
+	     while(num<=range) 
+	     {
+	    	 if(num%2==0)
+	    	 {System.out.println(num +" is a even number");
+	    	 }
+	    	 else
+	    	 {
+	                System.out.println(num +"is a odd number");
+	     }
+	     num++;
+	     SC.close();
+	     }
+	     
+	}
+	
+}
+	     
+	     
+  
